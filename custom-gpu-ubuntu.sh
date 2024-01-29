@@ -36,4 +36,5 @@ echo "Created $intel_conf with the specified content."
 
 echo "Press Enter to close the terminal..."
 read
+exit 1
 
