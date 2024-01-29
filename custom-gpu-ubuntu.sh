@@ -34,6 +34,7 @@ echo -e 'Section "Device"\n    Identifier "intel"\n    Driver "modesetting"\n   
 
 echo "Created $intel_conf with the specified content."
 
+echo "You need to activate a nvidia proprietary driver after to the new configuration work."
 echo "Press Enter to close the terminal..."
 read
 exit 1
